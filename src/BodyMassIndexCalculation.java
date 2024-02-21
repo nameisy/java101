@@ -2,16 +2,16 @@ import java.util.Scanner;
 public class BodyMassIndexCalculation {
     public static void main(String[] args) {
 
+        Scanner input = new Scanner(System.in);
+
         // define variables
         double height, weight;
 
-        Scanner input = new Scanner(System.in);
-
         // request values from the user
         System.out.print("Please enter your height (in meters): ");
-        weight = input.nextInt();
+        height = input.nextDouble();
         System.out.print("Please enter your weight (in kilograms): ");
-        height = input.nextInt();
+        weight = input.nextDouble();
 
         //calculation
         double bmc = weight / (height * height);
