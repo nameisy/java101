@@ -18,7 +18,7 @@ public class CalculatingTheAreaAndPerimeter {
 
         System.out.print("Merkez açısının ölçüsünü giriniz: ");
         int a = input.nextInt();
-        double alanAçı = (pi * (r * r) * a) / 360;
-        System.out.println("Daire diliminin alanı: " + alanAçı);
+        double alanAci = (pi * (r * r) * a) / 360;
+        System.out.println("Daire diliminin alanı: " + alanAci);
     }
 }
