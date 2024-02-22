@@ -9,7 +9,7 @@ public class SortingNumbersFromLargerToSmaller {
 
         Scanner input = new Scanner(System.in);
 
-        //Getting numer from the user.
+        //Getting number from the user.
         System.out.print ("Number 1:");
         a = input.nextInt ();
 
