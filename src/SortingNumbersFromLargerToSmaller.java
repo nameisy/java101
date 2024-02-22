@@ -1,11 +1,15 @@
 import java.util.Scanner;
 
 public class SortingNumbersFromLargerToSmaller {
+    // Sorting numbers from larger to smaller program.
     public static void main(String[] args) {
+
+        // Defining variables.
         int a, b, c;
 
         Scanner input = new Scanner(System.in);
 
+        //Getting numer from the user.
         System.out.print ("Number 1:");
         a = input.nextInt ();
 
@@ -15,6 +19,7 @@ public class SortingNumbersFromLargerToSmaller {
         System.out.print ("Number 3:");
         c = input.nextInt ();
 
+        // Formula for sortingn numbers from largest to smallest.
         if ((a > b) && (a > c)) {
             if (b > c) {
                 System.out.println("a > b > c");
