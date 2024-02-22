@@ -46,7 +46,6 @@ public class ClassPassStatusCalculation {
             music = 0;
             numberOfCourses-=1;
         }
-
         // Averaging formula.
         double avarage = (math + physics + turkish + chemistry + music) / numberOfCourses;
         if (avarage <= 55) {
@@ -55,13 +54,5 @@ public class ClassPassStatusCalculation {
             System.out.print("Conguralations. You passed the class");
         }
             System.out.print("Avarage: " + avarage);
-
-
-
-
-
-
-
-
     }
 }
