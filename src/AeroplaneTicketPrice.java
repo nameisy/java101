@@ -50,6 +50,6 @@ public class AeroplaneTicketPrice {
             System.out.println("You Entered Incorrect Data!");
         }
 
-        System.out.println(STR."Total Amount is \{price} TL");
+        System.out.println("Total Amount is: " + price + " TL");
     }
 }
