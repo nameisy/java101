@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// Average of numbers exactly divisible by 3 and 4.
 public class AverageCalculating {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
