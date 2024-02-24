@@ -1,9 +1,9 @@
 public class CombinationCalculation {
 // This program calculates combinations using a while loop.
 
-/* N is the number of elements in the set.
-   r is the number of elements in each group.
-   C(n,r) is the number of distinct groups of r elements that can be formed from a set of n elements.*/
+    /* N is the number of elements in the set.
+       r is the number of elements in each group.
+       C(n,r) is the number of distinct groups of r elements that can be formed from a set of n elements.*/
     public static void main(String[] args) {
         // Define the values of n and r.
         int n = 5;
