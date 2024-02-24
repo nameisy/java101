@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// The programme that prints the powers of 4 and 5 up to the entered number on the screen.
 public class FindingForcesOf4And5 {
     public static void main(String[] args) {
 
