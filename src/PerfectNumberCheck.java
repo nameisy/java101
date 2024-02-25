@@ -16,6 +16,7 @@ public class PerfectNumberCheck {
                 total += i; }
         }
         if (total == number) {
+
             // Print that it is a perfect number.
             System.out.println(number + " Perfect number.");
         } else {
