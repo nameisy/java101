@@ -13,7 +13,7 @@ public class ArmstrongFindingNumbers {
             total /= 10;
         }
         // The number is divided by 10 to remove the last digit.
-        System.out.println("Sayının basamak sayılarının toplamı: " + total);
+        System.out.println("Total of the digits of the number: " + total);
     }
 }
 
