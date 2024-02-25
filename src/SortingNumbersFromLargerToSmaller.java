@@ -19,7 +19,9 @@ public class SortingNumbersFromLargerToSmaller {
         System.out.print ("Number 3:");
         c = input.nextInt ();
 
-        // Formula for sortingn numbers from largest to smallest.
+
+
+
         if ((a > b) && (a > c)) {
             if (b > c) {
                 System.out.println("a > b > c");
