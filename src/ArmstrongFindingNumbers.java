@@ -13,7 +13,6 @@ public class ArmstrongFindingNumbers {
             // The number is divided by 10 to remove the last digit.
             a /= 10;
         }
-        // The number is divided by 10 to remove the last digit.
         System.out.println("Total of the digits of the number: " + total);
     }
 }
