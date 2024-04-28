@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 //A programme that calculates the air ticket price according to the distance and conditions.
-public class Main {
+public class AeroplaneTicketPrice {
     public static void main(String[] args) {
 
         // Defining variables.
