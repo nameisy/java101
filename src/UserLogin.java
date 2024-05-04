@@ -17,42 +17,28 @@ public class UserLogin {
            check that the password should not be the same as the password, and if the passwords are the same,
            display "Password could not be created, please enter another password." If no problem,
            "Password created" Write the program that writes.*/
-        if(Username.equals("patika") && password.equals("bootcamp"))
-        {
+        if (Username.equals("patika") && password.equals("bootcamp")) {
             System.out.println("Entry successful");
-        }
-        else if(!(Username.equals("patika")) && !(password.equals("bootcamp")))
-        {
+        } else if (!(Username.equals("patika")) && !(password.equals("bootcamp"))) {
             System.out.println("Username and password are incorrect, try again!");
-        }
-        else if(!(Username.equals("patika")) && (password.equals("bootcamp")))
-        {
+        } else if (!(Username.equals("patika")) && (password.equals("bootcamp"))) {
             System.out.println("Username wrong, try again!");
-        }
-        else
-        {
+        } else {
             System.out.println("The password is wrong, do you want to reset it? ");
             String cevap = scan.nextLine();
-        if(cevap.equals("Yes"))
-        {
-            System.out.println("Enter your new password: ");
-            String yeniSifre = scan.nextLine();
+            if (cevap.equals("Yes")) {
+                System.out.println("Enter your new password: ");
+                String yeniSifre = scan.nextLine();
 
-        if(!yeniSifre.equals(password))
-        {
-             System.out.println("Password generated.");
-        }
-        else
-        {
-            System.out.println("Do not enter your old or incorrect password! Failed to create password.");
-        }
-        }
-        else
-        {
-            System.out.println("Password reset has been canceled.");
+                if (!yeniSifre.equals(password)) {
+                    System.out.println("Password generated.");
+                } else {
+                    System.out.println("Do not enter your old or incorrect password! Failed to create password.");
+                }
+            } else {
+                System.out.println("Password reset has been canceled.");
             }
         }
 
     }
-
 }
