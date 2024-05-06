@@ -1,3 +1,4 @@
+package Employee.src;
 public class Employee {
 
     String name; // Çalışanın adı.
